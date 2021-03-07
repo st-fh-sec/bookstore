@@ -1,0 +1,11 @@
+<web-app>
+  <servlet>
+    <servlet-name>Query</servlet-name>
+    <servlet-class>QueryServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Query</servlet-name>
+    <url-pattern>/query</url-pattern>
+  </servlet-mapping>
+</web-app>
